@@ -1,0 +1,6 @@
+{
+  "name": "Casadova Gym Center",
+  "description": "Premium fitness center and athletic high-performance coaching in Palangka Raya.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

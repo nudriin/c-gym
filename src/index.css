@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #ffb786;
+  --color-brand-on-primary: #502400;
+  --color-brand-primary-container: #f58220;
+  --color-brand-on-primary-container: #5b2a00;
+  --color-brand-background: #131314;
+  --color-brand-background-deep: #0e0e0f;
+  --color-brand-surface-container: #1f1f20;
+  --color-brand-surface-container-low: #1b1b1c;
+  --color-brand-surface-container-high: #2a2a2b;
+  --color-brand-surface-elevated: #262627;
+  --color-brand-success-vibrant: #22C55E;
+  --color-brand-intensity-red: #EF4444;
+  --color-brand-secondary: #c5c6ca;
+  --color-brand-on-surface: #e5e2e3;
+  --color-brand-on-surface-variant: #ddc1b0;
+  --color-brand-outline: #a58c7d;
+  --color-brand-outline-variant: #564336;
+
+  --font-display: "Oswald", sans-serif;
+  --font-headline: "Oswald", sans-serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@utility text-glow-orange {
+  text-shadow: 0 0 15px rgba(245, 130, 32, 0.4);
+}
+
+@utility hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #0e0e0f;
+  color: #e5e2e3;
+}
+
+body {
+  font-family: var(--font-sans);
+}
